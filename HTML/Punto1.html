@@ -19,14 +19,26 @@
        <h2>FORMULARIO DE REGISTRO</h2>
         <div>
             <form action="mailto:santiagoloaizamadrid@gmail.com" method="get" enctype="text/plain">
-                <b>Nombre</b><br> <input type="text" name="Nombre" size="10" maxlength="50">
-                <br><b>Apellidos</b><br> <input type="text" name="Apellidos" size="15" maxlength="50">
-                <br><b>Sexo</b><br> <input type="radio" name="Sexo" value="Hombre">Hombre
-                <input type="radio" name="sexo" value="Mujer">Mujer
-                <br><b>Correo</b><br><input type="text" name="Correo">
-                <br><input type="checkbox" name="Recibir informacion" checked> Deseo recibir informacion sobre novedades y ofertas. 
-                <br><input type="checkbox" name="Declaracion de leido"> Declaro haber leido y aceptar las condiciones generales 
-                del programa y la normativa sobre protección de datos.
+                <label for="Nombre">
+                    <span><b>Nombre</b></span>
+                    <input type="text" name="Nombre" id="Nombre" size="10" maxlength="50" placeholder="Tu Nombre" autocomplete="name" required>
+                </label><br>
+                <label for="Apellidos">
+                    <span><b>Apellidos</b></span>
+                    <input type="text" name="Apellidos" id="Apellidos" size="15" maxlength="50" placeholder="Tus Apellidos" required>
+                </label><br>
+                <label for="Sexo">
+                    <span><b>Sexo</b></span>
+                    <input type="radio" name="Sexo" value="Hombre">Hombre<input type="radio" name="sexo" value="Mujer">Mujer
+                </label><br>
+                <label for="Correo">
+                    <span><b>Correo</b></span>
+                    <input type="email" id="Correo" name="Correo" placeholder="Tu Correo" autocomplete="email" required>
+                </label>
+                <label for="Recibir informacion"><br><input type="checkbox" name="Recibir informacion" checked> Deseo recibir informacion 
+                sobre novedades y ofertas. </label>
+                <label for="Declaracion de leido"><br><input type="checkbox" name="Declaracion de leido"> Declaro haber leido y aceptar las condiciones generales 
+                del programa y la normativa sobre protección de datos.</label>
                 <br><input type="submit" value="Enviar"> 
             </form>
         </div>

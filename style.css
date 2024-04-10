@@ -16,12 +16,8 @@ h3{
     color: rgb(31, 26, 17);
 }
 
-table{
-    border-radius: 0.3rem;
-}
-
 div{
-    background-color: rgb(206, 136, 57);
+    background-color: rgba(223, 145, 55, 0.652);
     border-radius: 2rem;
     text-align: center;
 }
@@ -34,6 +30,7 @@ a{
 }
 
 table{
+    border-radius: 0.3rem;
     text-align: center;
     align-content: center;
     margin-top: 1rem;
@@ -45,4 +42,10 @@ table{
 .tableContainer{
     background-color:rgba(228, 179, 114, 0.586);
     position: absolute;
+}
+form{
+    color: rgb(35, 32, 30);
+}
+span{
+    color: rgb(80, 36, 1);
 }
